@@ -1,0 +1,174 @@
+r-cran-nnet (7.3-16-2) unstable; urgency=medium
+
+  * Simple rebuild for unstable following Debian 11 release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 16 Aug 2021 15:53:50 -0500
+
+r-cran-nnet (7.3-16-1) experimental; urgency=medium
+
+  * New upstream release (to experimental during freeze)
+
+  * debian/control: Set Build-Depends: to recent R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 08 May 2021 16:45:38 -0500
+
+r-cran-nnet (7.3-15-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Switch to virtual debhelper-compat (= 11)
+  * debian/compat: Removed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 24 Jan 2021 09:33:26 -0600
+
+r-cran-nnet (7.3-14-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 26 Apr 2020 08:40:48 -0500
+
+r-cran-nnet (7.3-13-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+  * debian/control: Switch to ${R:Depends} now that dh-r is fixed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 25 Feb 2020 11:10:01 -0600
+
+r-cran-nnet (7.3-12-2.1) unstable; urgency=medium
+
+  * (Inofficial) Rebuild for R 3.5.0
+
+  * Manual override for ${R:Depends} while dh-r is looked at
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Depends: on ${misc:Depends}
+  * debian/control: Add Vcs-Browser: and Vcs-Git:
+  * debian/compat: Increase level to 9
+  * debian/control: Switch from cdbs to dh-r
+  * debian/rules: Idem
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 28 Apr 2018 14:10:57 -0500
+
+r-cran-nnet (7.3-12-2) unstable; urgency=medium
+
+  * Rebuilt under R 3.4.0 to update registration for .C() and .Fortran()
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Depends: on ${misc:Depends}
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 29 Apr 2017 10:08:26 -0500
+
+r-cran-nnet (7.3-12-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 02 Feb 2016 13:57:42 -0600
+
+r-cran-nnet (7.3-11-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 30 Aug 2015 11:08:08 -0500
+
+r-cran-nnet (7.3-10-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 30 Jun 2015 08:43:15 -0500
+
+r-cran-nnet (7.3-9-1) unstable; urgency=low
+
+  * New upstream release
+ 
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 11 Feb 2015 07:09:43 -0600
+
+r-cran-nnet (7.3-8-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 28 Mar 2014 06:32:12 -0500
+
+r-cran-nnet (7.3-7-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 13 Jul 2013 12:03:36 -0500
+
+r-cran-nnet (7.3-6-2) unstable; urgency=low
+
+  * debian/control: Set Build-Depends: to current R version 
+  
+  * (Re-)building with R 3.0.0 (beta)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 25 Mar 2013 21:33:12 -0500
+
+r-cran-nnet (7.3-6-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 20 Mar 2013 08:23:45 -0500
+
+r-cran-nnet (7.3-5-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 03 Oct 2012 12:10:54 -0500
+
+r-cran-nnet (7.3-4-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Change Depends to ${R:Depends}
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 27 Jun 2012 12:20:03 -0500
+
+r-cran-nnet (7.3-1-2) unstable; urgency=low
+
+  * debian/control: Provided extended long Description:
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 24 Oct 2011 07:09:27 -0500
+
+r-cran-nnet (7.3-1-1) unstable; urgency=low
+
+  * Initial Debian package				(Closes: #551131)
+  
+  * nnet used to be part of the VR bundle which has been in Debian as package
+    r-cran-vr since Jan 2004, and as part of the r-base package since Dec 1997.
+    It has been unbundled with deprecation of package bundles in R 2.10.0
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 15 Oct 2009 19:43:55 -0500
