@@ -1,3 +1,39 @@
+r-cran-nnet (7.3-19-2) unstable; urgency=medium
+
+  * Rebuilding for unstable following bookworm release
+  
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 21 Jun 2023 06:52:20 -0500
+
+r-cran-nnet (7.3-19-1) experimental; urgency=medium
+
+  * New upstream release (into 'experimental' while Debian is frozen)
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Switch to virtual debhelper-compat (= 12)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 08 May 2023 17:39:01 -0500
+
+r-cran-nnet (7.3-18-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 28 Sep 2022 12:57:52 -0500
+
+r-cran-nnet (7.3-17-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 13 Jan 2022 08:29:05 -0600
+
 r-cran-nnet (7.3-16-2) unstable; urgency=medium
 
   * Simple rebuild for unstable following Debian 11 release
