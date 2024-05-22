@@ -1,8 +1,8 @@
-276556b2f9b6a0bfb8ad98c9f61f6356 *DESCRIPTION
+c47a71474e23ad6081634cf6b1823d26 *DESCRIPTION
 96ca8858604cc2dad175578a3481a5de *LICENCE.note
 3108fb45014de53cb6a33bdac2bc71b3 *NAMESPACE
-bddd60ee2fc196f68a625aae7a08aa56 *R/multinom.R
-b9c1e2c28b9a500b31aedb5150445b0a *R/nnet.R
+31fb0344ce5cbdfff115399468b43bc0 *R/multinom.R
+a9510ad37ef220fe49bd8590c1c1a998 *R/nnet.R
 0611f18002ef19f31e57919fd7a80b35 *R/vcovmultinom.R
 91cbc73bd6fed6d715f20cd97e7a47ac *R/zzz.R
 c8d531be56f6ea62e73d9787e17f3e30 *inst/CITATION
@@ -25,4 +25,4 @@ edebef236b0bceb62d08f8991f17d4b0 *po/R-fr.po
 014a91a7615597b53e2019156a051c57 *po/R-ko.po
 4a5ef8264cc0cd5d16a09cd25f5db420 *po/R-nnet.pot
 43625e745274aa2ccf25b7d142d91dda *po/R-pl.po
-5a10838e355368403aab2b71abc56e6e *src/nnet.c
+ebb0b4a6c2cec84d7347dcb47beba3aa *src/nnet.c
